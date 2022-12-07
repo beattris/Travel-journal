@@ -1,7 +1,37 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
 }
 
+body {
+  margin: 0 auto;
+  font-family: "inter", sans-serif;
+  background-color: #ffffff;
+}
+
+header {
+  height: 55px;
+  background: #f55a5a;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  padding: 12px 0;
+}
+
+.logo {
+  width: 24px;
+  margin-right: 7px;
+}
+
+.main-nav > p {
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: -0.075em;
+  color: #ffffff;
+}
