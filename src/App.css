@@ -35,3 +35,74 @@ header {
   letter-spacing: -0.075em;
   color: #ffffff;
 }
+
+section {
+  padding: 60px 20px;
+}
+
+.travel-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  /* width: 470px; */
+  height: 168px;
+}
+
+.location-image {
+  width: 100%;
+  height: 100%;
+}
+
+.travel-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* padding-right: 40px; */
+}
+
+.region {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+.location-icon {
+  width: 7px;
+  margin-right: 4px;
+}
+
+.region > p {
+  letter-spacing: 0.17em;
+  margin-right: 12px;
+}
+
+.region > a {
+  text-decoration: underline;
+  color: #918e9b;
+}
+
+.region-name {
+  font-weight: 700;
+  font-size: 25px;
+  color: #2b283a;
+  padding-top: 4px;
+}
+
+.region-date {
+  font-weight: 700;
+  font-size: 11px;
+  color: #2b283a;
+  padding-top: 7px;
+}
+
+.region-info {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  color: #2b283a;
+  padding-top: 9px;
+}
